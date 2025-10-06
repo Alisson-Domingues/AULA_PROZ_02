@@ -1,0 +1,470 @@
+@font-face {
+    font-family: 'Bryndan Write';
+    src: url('C:\Windows\Fonts') format('truetype')
+}
+
+*{
+    margin: 0;
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Bryndan Write';
+    color: rgb(255, 255, 255);
+    
+}
+
+.linha-vertical {
+    width: 5px;        /* Largura da linha */
+    height: 50px;     /* Altura da linha */
+    background-color: #4b4d07; /* Cor da linha (preto) */
+    display: inline-block;
+    position: fixed;
+    top: 2%;
+    left: 21%;
+}
+
+#box{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    
+}
+#box2{
+    background-color: rgb(0, 0, 0);
+    width: 24.5%;
+    height: 24%;
+    position: fixed;
+    top: 22%;
+    left: 8.8%;
+    opacity: 0.91;
+    z-index: 1;
+}
+#box3{
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+    height: 22%;
+    position: fixed;
+    top: 24%;
+    left: 40.1%;
+    opacity: 0.91; 
+}
+#box4{
+    background-color: rgb(0, 0, 0);
+    width: 27%;
+    height: 22%;
+    position: fixed;
+    top: 23.4%;
+    left: 71.8%;
+    opacity: 0.91; 
+}
+#box5{
+    background-color: rgb(0, 0, 0);
+    width: 24.5%;
+    height: 24%;
+    position: fixed;
+    top: 63.4%;
+    left: 8.8%;
+    opacity: 0.91; 
+}
+#box6{
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+    height: 22.7%;
+    position: fixed;
+    top: 63.4%;
+    left: 40.1%;
+    opacity: 0.91; 
+}
+#box7{
+    background-color: rgb(0, 0, 0);
+    width: 27%;
+    height: 22%;
+    position: fixed;
+    top: 63.4%;
+    left: 71.8%;
+    opacity: 0.91; 
+}
+
+body{
+    background-image: url(imagens_fundo/fundo_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+#box2>h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 18%;
+    top: 13%;
+    width: 80%;
+}
+#box2>h2 {
+    font-size: 13px;
+    position: absolute;
+    left: 20%;
+    top: 36%;
+    width: 80%;
+}
+
+#box3>h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 15%;
+    top: 11%;
+    width: 80%;
+}
+#box3>h2 {
+    font-size: 13px;
+    position: absolute;
+    left: 15%;
+    top: 34%;
+    width: 80%;
+}
+
+#box4>h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 18%;
+    top: 11%;
+    width: 80%;
+}
+#box4>h2 {
+    font-size: 13px;
+    position: absolute;
+    left: 18%;
+    top: 34%;
+    width: 80%;
+}
+
+#box5>h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 14%;
+    top: 15%;
+    width: 80%;
+}
+#box5>h2 {
+    font-size: 13px;
+    position: absolute;
+    left: 16%;
+    top: 38%;
+    width: 80%;
+}
+
+#box6>h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 13%;
+    top: 11%;
+    width: 80%;
+}
+#box6>h2 {
+    font-size: 13px;
+    position: absolute;
+    left: 15%;
+    top: 34%;
+    width: 80%;
+}
+
+#box7>h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 18%;
+    top: 11%;
+    width: 80%;
+}
+#box7>h2 {
+    font-size: 13px;
+    position: absolute;
+    left: 18%;
+    top: 34%;
+    width: 80%;
+}
+
+#botao {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #907002;
+  border: 2px solid #907002;
+  padding: 12px 40px 6px;
+  overflow: hidden;
+  position: fixed;
+  top: 44%;
+  left: 28.7%;
+  z-index: 2;
+}
+#botao>a>p{
+    position: absolute;
+    font-size: 13px;
+    left: 15%;
+    top: 17%;
+}
+
+#botao1 {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #907002;
+  border: 2px solid #907002;
+  padding: 12px 40px 6px;
+  overflow: hidden;
+  position: fixed;
+  top: 44%;
+  left: 60.7%;
+  z-index: 2;
+  
+}
+#botao1>a>p{
+    position: absolute;
+    font-size: 13px;
+    left: 15%;
+    top: 17%;
+}
+
+#botao2 {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #907002;
+  border: 2px solid #907002;
+  padding: 12px 40px 6px;
+  overflow: hidden;
+  position: fixed;
+  top: 44%;
+  left: 93.7%;
+  z-index: 2;
+  
+}
+#botao2>a>p{
+    position: absolute;
+    font-size: 13px;
+    left: 15%;
+    top: 17%;
+}
+
+#botao3 {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #907002;
+  border: 2px solid #907002;
+  padding: 12px 40px 6px;
+  overflow: hidden;
+  position: fixed;
+  top: 85%;
+  left: 28.7%;
+  z-index: 2;
+  
+}
+#botao3>a>p{
+    position: absolute;
+    font-size: 13px;
+    left: 15%;
+    top: 17%;
+}
+
+#botao4 {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #907002;
+  border: 2px solid #907002;
+  padding: 12px 40px 6px;
+  overflow: hidden;
+  position: fixed;
+  top: 84.4%;
+  left: 60.7%;
+  z-index: 2;
+  
+}
+#botao4>a>p{
+    position: absolute;
+    font-size: 13px;
+    left: 15%;
+    top: 17%;
+}
+
+#botao5 {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #907002;
+  border: 2px solid #907002;
+  padding: 12px 40px 6px;
+  overflow: hidden;
+  position: fixed;
+  top: 83.4%;
+  left: 93.7%;
+  z-index: 2;
+  
+}
+#botao5>a>p{
+    position: absolute;
+    font-size: 13px;
+    left: 15%;
+    top: 17%;
+}
+
+#imagem1>img{
+    position: fixed;
+    left: 1%;
+    top: 15%;
+    width: 12%;
+    transform: scaleX(-1);
+    z-index: 3;
+    
+}
+#imagem2>img{
+    position: fixed;
+    left: 34%;
+    top: 20%;
+    width: 10%;
+    transform: scaleX(-1);
+    z-index: 3;
+    
+}
+#imagem3>img{
+    position: fixed;
+    left: 66.5%;
+    top: 18.2%;
+    width: 10%;
+    transform: scaleX(-1);
+    z-index: 3;
+}
+#imagem4>img{
+    position: fixed;
+    left: 1.5%;
+    top: 58.2%;
+    width: 11%;
+    transform: scaleX(-1);
+    z-index: 3;
+}
+#imagem5>img{
+    position: fixed;
+    left: 34%;
+    top: 58.2%;
+    width: 10%;
+    transform: scaleX(-1);
+    z-index: 3;
+}
+#imagem6>img{
+    position: fixed;
+    left: 65.9%;
+    top: 58.2%;
+    width: 10%;
+    transform: scaleX(-1);
+    z-index: 3;
+}
+
+h1 {
+    font-size: 180%;
+    position: absolute;
+    left: 6%;
+    top: 30%;
+    width: 80%;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 120%;
+    position: absolute;
+    left: 26%;
+    top: 40%;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 120%;
+    position: absolute;
+    left: 34%;
+    top: 40%;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 120%;
+    position: absolute;
+    left: 46%;
+    top: 40%;
+    font-weight: 100;
+}
+
+h5 {
+    font-size: 120%;
+    position: absolute;
+    left: 58%;
+    top: 40%;
+    font-weight: 100;
+}
+
+h6 {
+    font-size: 120%;
+    position: absolute;
+    left: 69%;
+    top: 40%;
+    font-weight: 100;
+}
+
+p {
+    font-size: 120%;
+    position: absolute;
+    left: 84%;
+    top: 40%;
+    font-weight: 100;
+}
+
+a{
+    color: white;
+}
+
+.title:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+
+
+#rodape>a>h1{
+    font-size: 120%;
+    position: fixed;
+    left: 66%;
+    top: 95%;
+    width: 80%;
+    font-weight: 100;
+    z-index: 1;
+}
+#rodape>a>h2{
+    font-size: 120%;
+    position: fixed;
+    left: 75%;
+    top: 95%;
+    width: 80%;
+    font-weight: 100;
+    z-index: 1;
+}
+#rodape>a>h3{
+    font-size: 120%;
+    position: fixed;
+    left: 87%;
+    top: 95%;
+    width: 80%;
+    font-weight: 100;
+    z-index: 1;
+}
+#rodape>a>h4{
+    font-size: 120%;
+    position: fixed;
+    left: 95%;
+    top: 95%;
+    width: 80%;
+    font-weight: 100;
+    z-index: 1;
+}
